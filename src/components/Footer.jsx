@@ -12,7 +12,7 @@ const Footer  = () => {
       </div>
       <div className="social-Links d-flex justify-content-center">
         <Link to="/"><i className="bi bi-twitter-x"></i></Link>
-        <Link to="/"><i className="bi bi-facebook"></i></Link>
+        <Link target="_blank" to="https://www.facebook.com/profile.php?id=100075964613937"><i className="bi bi-facebook"></i></Link>
         <Link to="/"><i className="bi bi-instagram"></i></Link>
       </div>
       <div className="credits">

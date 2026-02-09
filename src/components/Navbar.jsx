@@ -21,7 +21,7 @@ const Navbar = () => {
 
       <div className="header-social-Links">
         <Link to="/" className="twitter"><i className="bi bi-twitter-x"></i></Link>
-        <Link to="/" className="facebook"><i className="bi bi-facebook"></i></Link>
+        <Link to="https://www.facebook.com/profile.php?id=100075964613937" className="facebook"><i className="bi bi-facebook"></i></Link>
         <Link to="/" className="instagram"><i className="bi bi-instagram"></i></Link>
       </div>
     </div>

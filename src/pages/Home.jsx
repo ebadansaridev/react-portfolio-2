@@ -12,12 +12,12 @@ const Home = () => (
         <div className="row gy-4 align-items-center">
           <div className="col-lg-6 order-2 order-lg-1">
             <div className="hero-content">
-              <h1 data-aos="fade-up" data-aos-delay="200">Hello, I'm <span className="highlight">Brandon Johnson</span></h1>
-              <h2 data-aos="fade-up" data-aos-delay="300">Creative <span className="typed" data-typed-items="UI/UX Designer, Web Developer, Digital Artist, Brand Strategist"></span></h2>
+              <h1 data-aos="fade-up" data-aos-delay="200">Hello, I'm <span className="highlight">Ebad Ansari</span></h1>
+              <h2 data-aos="fade-up" data-aos-delay="300">Senior Mern Stack Developer <span className="typed" data-typed-items="UI/UX Designer, Web Developer, Digital Artist, Brand Strategist"></span></h2>
               <p data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <div className="hero-actions" data-aos="fade-up" data-aos-delay="500">
-                <Link to="portfolio.html" className="btn btn-primary">View My Work</Link>
-                <Link to="contact.html" className="btn btn-outline">Get In Touch</Link>
+                <Link to="/portfolio" className="btn btn-primary">View My Work</Link>
+                <Link to="/contact" className="btn btn-outline">Get In Touch</Link>
               </div>
               <div className="social-Links" data-aos="fade-up" data-aos-delay="600">
                 <Link to="#"><i className="bi bi-twitter"></i></Link>
@@ -65,34 +65,10 @@ const Home = () => (
 
                         <div class="container" data-aos="fade-up" data-aos-delay="100">
                             <div class="row align-items-center justify-content-between gy-5 mb-5">
-                                <div class="col-lg-7" data-aos="fade-right" data-aos-delay="150">
-                                    <div class="intro-content">
-                                        <span class="eyebrow">Hello there</span>
-                                        <h2 class="headline">Hi, I'm Brandon - a calm-minded creative developer crafting serene digital journeys</h2>
-                                        <p class="lead">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus. Sed interdum, nunc non feugiat tempor, orci lorem luctus ligula, vitae rutrum nisl lorem non nulla.
-                                        </p>
-                                        <p>
-                                            Integer posuere lacus in mi fringilla, eget luctus risus pulvinar. Curabitur a arcu a nisl tempus sagittis. Aenean varius, tortor sed porttitor dictum, augue eros viverra lectus, at efficitur magna lacus in risus.
-                                        </p>
 
-                                        <div class="cta-group">
-                                            <a href="#portfolio" class="btn-ghost">
-                                                View My Work <i class="bi bi-arrow-up-right"></i>
-                                            </a>
-                                            <a href="#" class="link-underline">
-                                                Download Resume <i class="bi bi-download"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="250">
-                                    <figure class="profile-figure text-center text-lg-end">
-                                        <img src="assets/img/profile/profile-square-11.webp"
-                                            alt="Portrait of Alex" class="img-fluid profile-photo" />
-                                    </figure>
-                                </div>
+                                <br />
+                                <br />
                             </div>
 
                         </div>
